@@ -6,7 +6,7 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 
 lemmatizer = WordNetLemmatizer()
 with open('intents.json') as file:
